@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Gaston from './components/gaston';
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -12,6 +13,8 @@ function App() {
 			<h3>Daaale gaston</h3>
 			<h1>hasdahsdas</h1>
 			<h1>hasdahsdas</h1>
+      <Gaston></Gaston>
+
 			<h1>hasdahsdas</h1>
 			<h1>hasdahsdas</h1>
 			<h1>hasdahsdas</h1>
